@@ -1,5 +1,5 @@
 {
-  "name": "mylibrary",
+  "name": "@sharephoenix/mylibrary",
   "version": "0.0.1",
   "description": "A description of this package. # spm-test",
   "main": "index.js",
