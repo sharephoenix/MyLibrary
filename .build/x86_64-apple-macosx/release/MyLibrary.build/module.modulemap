@@ -1,0 +1,4 @@
+module MyLibrary {
+    header "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/MyLibrary.build/MyLibrary-Swift.h"
+    requires objc
+}

@@ -1,0 +1,12 @@
+{
+  "": {
+    "dependencies": "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/MyNewLibrary.build/MyNewLibrary.d",
+    "object": "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/MyNewLibrary.build/MyNewLibrary.o",
+    "swift-dependencies": "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/MyNewLibrary.build/master.swiftdeps"
+  },
+  "/Users/phoenix/Downloads/souce/a/MyLibrary/Sources/MyNewLibrary/MyNewLibrary.swift": {
+    "object": "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/MyNewLibrary.build/MyNewLibrary.swift.o",
+    "swiftmodule": "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/MyNewLibrary.build/MyNewLibrary~partial.swiftmodule",
+    "swift-dependencies": "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/MyNewLibrary.build/MyNewLibrary.swiftdeps"
+  }
+}

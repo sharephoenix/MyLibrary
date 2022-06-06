@@ -1,0 +1,200 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/MyLibraryPackageTests.xctest/Contents/MacOS/MyLibraryPackageTests",
+      "productName" : "MyLibraryPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.MyLibrary-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/phoenix/Downloads/souce/a/MyLibrary/Sources/MyLibrary/MyLibrary.swift"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MyLibrary",
+      "moduleOutputPath" : "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/MyLibrary.swiftmodule",
+      "objects" : [
+        "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/MyLibrary.build/MyLibrary.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx10.10",
+        "-swift-version",
+        "5",
+        "-O",
+        "-g",
+        "-j16",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/MyLibrary.build/MyLibrary-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/MyLibrary.build/MyLibrary.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/MyLibrary.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/phoenix/Downloads/souce/a/MyLibrary/Sources/MyLibrary/MyLibrary.swift"
+      ],
+      "tempsPath" : "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/MyLibrary.build",
+      "wholeModuleOptimization" : true
+    },
+    "C.MyLibraryTests-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/phoenix/Downloads/souce/a/MyLibrary/Tests/MyLibraryTests/MyLibraryTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/MyLibrary.swiftmodule"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MyLibraryTests",
+      "moduleOutputPath" : "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/MyLibraryTests.swiftmodule",
+      "objects" : [
+        "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/MyLibraryTests.build/MyLibraryTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx11.0",
+        "-swift-version",
+        "5",
+        "-index-store-path",
+        "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/index/store",
+        "-O",
+        "-g",
+        "-j16",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/MyLibraryTests.build/MyLibraryTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/MyLibraryTests.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/phoenix/Downloads/souce/a/MyLibrary/Tests/MyLibraryTests/MyLibraryTests.swift"
+      ],
+      "tempsPath" : "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/MyLibraryTests.build",
+      "wholeModuleOptimization" : true
+    },
+    "C.MyNewLibrary-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/phoenix/Downloads/souce/a/MyLibrary/Sources/MyNewLibrary/MyNewLibrary.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/MyLibrary.swiftmodule"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MyNewLibrary",
+      "moduleOutputPath" : "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/MyNewLibrary.swiftmodule",
+      "objects" : [
+        "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/MyNewLibrary.build/MyNewLibrary.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx10.10",
+        "-swift-version",
+        "5",
+        "-O",
+        "-g",
+        "-j16",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/MyNewLibrary.build/MyNewLibrary-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/MyNewLibrary.build/MyNewLibrary.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/MyNewLibrary.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/phoenix/Downloads/souce/a/MyLibrary/Sources/MyNewLibrary/MyNewLibrary.swift"
+      ],
+      "tempsPath" : "/Users/phoenix/Downloads/souce/a/MyLibrary/.build/x86_64-apple-macosx/release/MyNewLibrary.build",
+      "wholeModuleOptimization" : true
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

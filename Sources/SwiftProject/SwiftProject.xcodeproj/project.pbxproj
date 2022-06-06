@@ -20,6 +20,8 @@
 		D0C6C363284C9484008468D8 /* MyLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = D0C6C362284C9484008468D8 /* MyLibrary */; };
 		D0C6C366284C967E008468D8 /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = D0C6C365284C967E008468D8 /* SwiftProtobuf */; };
 		D0C6C368284E47AF008468D8 /* MyNewLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = D0C6C367284E47AF008468D8 /* MyNewLibrary */; };
+		D0C6C36B284E6D2D008468D8 /* MyLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = D0C6C36A284E6D2D008468D8 /* MyLibrary */; };
+		D0C6C36D284E6D2D008468D8 /* MyNewLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = D0C6C36C284E6D2D008468D8 /* MyNewLibrary */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +56,6 @@
 		D0C6C34E283E8272008468D8 /* SwiftProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftProjectUITests.swift; sourceTree = "<group>"; };
 		D0C6C350283E8272008468D8 /* SwiftProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D0C6C35D283E828D008468D8 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
-		D0C6C360284C9453008468D8 /* MyLibrary */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MyLibrary; path = ../MyLibrary; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0C6C36B284E6D2D008468D8 /* MyLibrary in Frameworks */,
+				D0C6C36D284E6D2D008468D8 /* MyNewLibrary in Frameworks */,
 				D0C6C363284C9484008468D8 /* MyLibrary in Frameworks */,
 				D0C6C366284C967E008468D8 /* SwiftProtobuf in Frameworks */,
 				D0C6C368284E47AF008468D8 /* MyNewLibrary in Frameworks */,
@@ -142,7 +145,6 @@
 		D0C6C35F284C9453008468D8 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				D0C6C360284C9453008468D8 /* MyLibrary */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -174,6 +176,8 @@
 				D0C6C362284C9484008468D8 /* MyLibrary */,
 				D0C6C365284C967E008468D8 /* SwiftProtobuf */,
 				D0C6C367284E47AF008468D8 /* MyNewLibrary */,
+				D0C6C36A284E6D2D008468D8 /* MyLibrary */,
+				D0C6C36C284E6D2D008468D8 /* MyNewLibrary */,
 			);
 			productName = SwiftProject;
 			productReference = D0C6C32A283E8270008468D8 /* SwiftProject.app */;
@@ -249,6 +253,7 @@
 			mainGroup = D0C6C321283E8270008468D8;
 			packageReferences = (
 				D0C6C364284C967E008468D8 /* XCRemoteSwiftPackageReference "swift-protobuf" */,
+				D0C6C369284E6D2D008468D8 /* XCRemoteSwiftPackageReference "MyLibrary" */,
 			);
 			productRefGroup = D0C6C32B283E8270008468D8 /* Products */;
 			projectDirPath = "";
@@ -651,6 +656,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		D0C6C369284E6D2D008468D8 /* XCRemoteSwiftPackageReference "MyLibrary" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sharephoenix/MyLibrary.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -665,6 +678,16 @@
 		};
 		D0C6C367284E47AF008468D8 /* MyNewLibrary */ = {
 			isa = XCSwiftPackageProductDependency;
+			productName = MyNewLibrary;
+		};
+		D0C6C36A284E6D2D008468D8 /* MyLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0C6C369284E6D2D008468D8 /* XCRemoteSwiftPackageReference "MyLibrary" */;
+			productName = MyLibrary;
+		};
+		D0C6C36C284E6D2D008468D8 /* MyNewLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0C6C369284E6D2D008468D8 /* XCRemoteSwiftPackageReference "MyLibrary" */;
 			productName = MyNewLibrary;
 		};
 /* End XCSwiftPackageProductDependency section */
